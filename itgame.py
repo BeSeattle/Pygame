@@ -5,6 +5,7 @@ from pygame.locals import *
   
 # 2 - Initialize the game
 pygame.init()
+pygame.display.set_caption('小兔子大战')
 width,height = 640,480
 screen=pygame.display.set_mode((width, height))
   
@@ -12,7 +13,8 @@ screen=pygame.display.set_mode((width, height))
 player = pygame.image.load("resources/images/dude.png")
   
 # 4 - keep looping through
-while 1:
+running = 1
+while running:
     # 5 - clear the screen before drawing it again
     screen.fill(0)
     # 6 - draw the screen elements
