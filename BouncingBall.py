@@ -3,7 +3,7 @@ from __future__ import unicode_literals
 import sys, pygame
 pygame.init()
 
-size = width, height = 320, 240
+size = width, height = 600, 540
 speed = [2, 2]
 background = 255, 255, 255
 
